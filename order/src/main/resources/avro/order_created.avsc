@@ -1,0 +1,16 @@
+{
+  "namespace": "com.acvr.order.dto",
+  "type": "record",
+  "name": "OrderCreated",
+  "fields": [
+    {"name": "orderId","type": "long"},
+    {"name":"orderDate","type": "string" },
+    {"name":"costomerName",  "type": ["null", "string"],
+      "default": null },
+    {"name":"productName",  "type": ["null", "string"],
+      "default": null },
+    {"name":"amount",  "type": "double",
+      "default": 0.0}
+  ]
+
+}
