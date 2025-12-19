@@ -39,7 +39,7 @@ public class OrderServiceImpl implements OrderService {
         EventDocument eventDocument = new EventDocument();
         eventDocument.setId(savedOrder.getOrderId());
         eventDocument.setType("Order created");
-        eventDocument.setPayload("UPDATED");
+        eventDocument.setPayload("UPDATED_SUCESFULLY");
         eventDocument.setOccurredAt(System.currentTimeMillis());
 
 
