@@ -11,7 +11,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-@Document(collection= "eventDocuments")
+@Document(collection= "eventDocument")
 public class EventDocument {
     @Id
     private long id;
